@@ -1,14 +1,14 @@
 /* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #F8FAFC;
+    color: #0F172A;
     transition: all 0.3s ease;
 }
 
 /* Navigation Bar */
 nav {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #1E3A8A, #0F172A);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 nav a {
@@ -17,7 +17,7 @@ nav a {
     transition: color 0.3s ease;
 }
 nav a:hover {
-    color: #ffdd57;
+    color: #FACC15;
 }
 
 /* Sections */
@@ -32,7 +32,7 @@ h1, h2, h3 {
 
 /* Hero Section */
 #home {
-    background: linear-gradient(135deg, #ff6f61, #de2f42);
+    background: linear-gradient(135deg, #1E3A8A, #155E75);
     color: white;
     height: 100vh;
     display: flex;
@@ -70,14 +70,14 @@ h1, h2, h3 {
 
 /* Buttons */
 button, a.btn {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #1E3A8A, #155E75);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background 0.3s ease, transform 0.2s ease;
 }
 button:hover, a.btn:hover {
-    background: linear-gradient(135deg, #0056b3, #003d80);
+    background: linear-gradient(135deg, #155E75, #0F172A);
     transform: scale(1.05);
 }
 
@@ -92,18 +92,18 @@ input, textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #94A3B8;
     border-radius: 5px;
     transition: border 0.3s ease;
 }
 input:focus, textarea:focus {
-    border-color: #007bff;
+    border-color: #1E3A8A;
     outline: none;
 }
 
 /* Dark Mode */
 .dark-mode {
-    background-color: #1a1a2e;
+    background-color: #1E293B;
     color: white;
 }
 .dark-mode nav {
